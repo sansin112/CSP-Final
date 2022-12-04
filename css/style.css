@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {margin: 0; padding: 0; scroll-behavior: smooth;}
+
+body {
+ min-height: 300vh;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: black;
+  color: white;
+  text-align:center;
+}
+
+#my-header.active {
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+
+.page-top {
+    text-align: center;
+    font-size: 150px;
+    padding: 40px;
+    color: white;
+    background-image: url('../images/taylor_HomePage.png');
+    background-size: cover;
+}
+
+.intro {
+    font-size: 20px;
+    padding: 30px;
+}
+
+.picture {
+    font-size: 20px;
+    padding: 30px;
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.row {
+  margin-top: 5px;
+}
+
+.column{
+    float: left;
+    width: 40%;
+    text-align: justify;
+}
+
+.col-left {
+    width: 60%;
+}
