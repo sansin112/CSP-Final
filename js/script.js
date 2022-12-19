@@ -9,3 +9,6 @@ $(window).scroll(function() {
         $("#my-header").removeClass("active");
     }
 });
+
+// type="text/javascript">
+// alert("Welcome to our Fan Page! Here you can learn all about Taylor Swift and her amazing accomplishments.");

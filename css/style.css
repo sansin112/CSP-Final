@@ -6,14 +6,14 @@
 html {margin: 0; padding: 0; scroll-behavior: smooth;}
 
 body {
- min-height: 300vh;
+ min-height: 160vh;
 }
 
 .header {
+  width: 100%;
   position: sticky;
   top: 0;
   background-color: black;
-  color: white;
   text-align:center;
 }
 
@@ -23,29 +23,121 @@ body {
 
 .page-top {
     text-align: center;
-    font-size: 150px;
-    padding: 40px;
+    font-size: 6.5em;
+    padding: 0.57em;
     color: white;
     background-image: url('../images/taylor_HomePage.png');
     background-size: cover;
 }
 
-.intro {
+.album-page-top {
+    text-align: center;
+    font-size: 6.5em;
+    padding: 0.57em;
+    color: white;
+    background-image: url('../images/album_page.png');
+    background-size: cover;
+}
+
+.award-page-top {
+    text-align: center;
+    font-size: 6.5em;
+    padding: 0.57em;
+    color: white;
+    background-image: url('../images/award_page.png');
+    background-size: cover;
+}
+
+.contact-page-top {
+    text-align: center;
+    font-size: 6.5em;
+    padding: 0.57em;
+    color: white;
+    background-image: url('../images/contact_page.png');
+    background-size: cover;
+}
+
+.join-page-top {
+    text-align: center;
+    font-size: 6em;
+    padding: 0.68em;
+    color: white;
+    background-image: url('../images/join_page.png');
+    background-size: cover;
+}
+
+.defalt {
     font-size: 20px;
+    padding: 30px 30px 0px 30px;
+}
+
+.info {
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.album_head {
     padding: 30px;
+}
+
+.lyrics {
+    font-size: 20px;
+    padding: 90px 0px 0px 50px;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.awards {
+    font-size: 20px;
+    padding: 0px 0px 0px 80px;
+    float: left;
+    width: 40%;
+}
+
+.footer {
+    font-size: 10px;
+    padding: 30px 0px 30px 30px;
+    bottom: 0;
 }
 
 .picture {
-    font-size: 20px;
-    padding: 30px;
-    width: 500px;
-    height: 600px;
+    padding: 30px 0px 0px 0px;
+    width: 100%;
     object-fit: cover;
 }
 
-.row {
-  margin-top: 5px;
+.award-pics {
+    padding: 0px 0px 30px 0px;
+    width: 55%;
+    object-fit: cover;
 }
+
+.contact-pic {
+    padding: 30px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.album-pics {
+    padding: 0px 0px 30px 30px;
+    width: 50%;
+    object-fit: cover;
+}
+
+/* .head-left {
+    float = left;
+    width = 20%
+}
+
+.head-right {
+    float = right;
+    width = 20%
+} */
 
 .column{
     float: left;
@@ -56,3 +148,21 @@ body {
 .col-left {
     width: 60%;
 }
+
+.pagelink {
+    color: white;
+    font-size: 1.8em;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 1074px) {
+    .pagelink {
+        color: white;
+        font-size: 1.8em;
+        margin-left: 2em;
+        margin-right: 2em;
+        text-decoration: none;
+    }
+  }
